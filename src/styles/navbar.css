@@ -1,0 +1,29 @@
+.navbar-container {
+    background: #555;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar-links {
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navbar-links:hover::before {
+    content: "";
+    height: 5px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
